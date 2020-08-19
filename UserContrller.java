@@ -15,4 +15,13 @@ public class UserContrller }
 		return "user/insert";
 	}
 
+	@RequestMapping("/user/update.do")
+	public String update() {
+		logger.info("경로:update")
+	
+		return "user/update";
+	}
+
+
+
 }
